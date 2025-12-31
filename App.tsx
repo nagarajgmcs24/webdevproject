@@ -1,6 +1,7 @@
 
 import React, { useState, useEffect } from 'react';
 import { HashRouter, Routes, Route, Navigate, Link, useNavigate } from 'react-router-dom';
+import { Analytics } from '@vercel/analytics/react';
 import { User, UserRole } from './types';
 import Login from './components/Auth/Login';
 import Signup from './components/Auth/Signup';
@@ -128,6 +129,7 @@ const App: React.FC = () => {
             <p className="text-slate-400 text-sm">© 2024 Fix-My-Ward Bengaluru. All rights reserved.</p>
           </div>
         </footer>
+        <Analytics />
       </div>
     </HashRouter>
   );
