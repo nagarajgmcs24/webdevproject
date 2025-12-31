@@ -1,0 +1,8 @@
+{
+  "name": "Fix-My-Ward Bengaluru",
+  "description": "A civic engagement platform for citizens to report ward-level issues to Bengaluru councillors. Features AI-powered description generation and real-time status tracking.",
+  "requestFramePermissions": [
+    "geolocation",
+    "camera"
+  ]
+}
